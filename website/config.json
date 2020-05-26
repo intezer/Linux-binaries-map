@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "images/intezer.png",
+    "link": "https://www.intezer.com",
+    "text": "Michael Kajiloti"
+  },
+  "text": {
+    "more": "Cool right?",
+    "intro": "This graph visualizes the code sharing relashionship between all the binary files in a standard Azure Ubuntu cloud workload.",
+    "title": "Linux Binaries Map"
+  },
+  "legend": {
+    "edgeLabel": "Code Connection",
+    "colorLabel": "Group",
+    "nodeLabel": "Linux Binary"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Group",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
