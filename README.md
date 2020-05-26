@@ -4,7 +4,7 @@ An interactive graph that visualizes the code sharing relashionship between all 
 ![](linux_map.gif)
 
 For more information:
-https://www.intezer.com/linux/mapping-binaries-inside-a-microsoft-azure-cloud-workload
+https://www.intezer.com/blog/linux/mapping-binaries-inside-a-microsoft-azure-cloud-workload
 
 The webpage was created using the SigmaExporter Gephi plugin:
 https://github.com/oxfordinternetinstitute/gephi-plugins/tree/sigmaexporter-plugin.
